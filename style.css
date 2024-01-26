@@ -225,15 +225,118 @@
 
 /* Shopping Items */
 
+
+/* box1 */
 .shop-items{
     display: flex;
     justify-content: space-evenly;
+    background-color: rgb(255, 192, 203);
+    background: linear-gradient(to bottom, pink, white);
+    margin: 0px 10px;
 }
 
-.box1, .box2, .box3, .box4{
-    width: 306px;
-    height: 385px;
+.box{
+    /* width: 306px; */
+    width: 23%;
+    height: 375px;
     background-color: white;
     border: 1px solid black;
     margin-bottom: 10px;
+    padding: 20px 0px 15px;
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.phone {
+    background-image: url(images/41aF1Kpc1iL._SY160_.jpg);
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.box-tech{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.tab{
+    background-image: url(images/tab.jpg);
+    height: 75px;
+    width: 100px;
+}
+
+.laptop{
+    background-image: url(images/laptop.jpg);
+    height: 75px;
+    width: 100px;
+}
+
+.tv{
+    background-image: url(images/tv.jpg);
+    height: 75px;
+    width: 100px;
+}
+
+.box-content p{
+    margin-top: 40px;
+    font-size: 13px;
+    color: #007185;
+}
+
+/* box2 */
+
+.box-content2{
+    margin-left: 10px;
+    margin-right: 10px;
+    /* font-size: 15px; */
+}
+
+.box-game1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.box-game2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.headset{
+    background-image: url(images/headset.jpg);
+    background-size: cover;
+    height: 120px;
+    width: 150px;
+}
+
+.keyboard{
+    background-image: url(images/keyboard.jpg);
+    height: 120px;
+    width: 150px;
+}
+
+.mouse{
+    background-image: url(images/mouse.jpg);
+    height: 100px;
+    width: 150px;
+}
+
+.chair{
+    background-image: url(images/chair.jpg);
+    height: 100px;
+    width: 150px;
+}
+
+.box-content2 p{
+    margin-top: 20px;
+    font-size: 13px;
+    color: #007185;
 }
