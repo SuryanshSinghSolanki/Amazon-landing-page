@@ -197,7 +197,7 @@
 .hero-section{
     background-image: url(images/61lwJy4B8PL._SX3000_.jpg);
     /* width: 1500px; */
-    height: 600px;
+    height: 350px;
     background-size: cover;
     margin: 0px 10px;
     display: flex;
@@ -213,10 +213,27 @@
     justify-content: center;
     font-size: 14px;
     width: 97%;
-    margin-bottom: 300px;
+    margin-bottom: 25px;
 }
 
 .hero-msg a {
     color: #007185;
     text-decoration: none;
+}
+
+
+
+/* Shopping Items */
+
+.shop-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1, .box2, .box3, .box4{
+    width: 306px;
+    height: 385px;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 10px;
 }
