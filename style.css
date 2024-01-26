@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
@@ -162,4 +162,30 @@
 .nav-cart{
     font-size: 14px;
     font-weight: 700;
+}
+
+
+/* Panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.panel-all{
+    padding: 8px 9px;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 14px;
 }
