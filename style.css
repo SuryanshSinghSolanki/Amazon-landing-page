@@ -10,6 +10,8 @@
     background-color: #0F1111;
     color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo{
@@ -34,6 +36,10 @@
 
 .border:hover{
     border: 1.5px solid white;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
 }
 
 
@@ -47,9 +53,113 @@
 
 .add-second{
     font-size: 14px;
+    margin-left: 3px;
 }
 
 .add-icon{
     display: flex;
     align-items: center;
+}
+.nav-address{
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+}
+
+
+
+/* Box 3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 850px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-select{
+    background-color: #dadada;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding: 7px 10px 10px 10px;
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #fedb68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0F1111;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+
+/* Box 4 */
+
+.nav-lang{
+    display: flex;
+    width: 65px;
+}
+
+.flag{
+    width: 30px;
+    height: 25px;
+    background-image: url(images/icons8-usa-flag-48.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.select-lang{
+    /* margin-left: 2px; */
+    margin-top: 4px;
+    width: 25px;
+    height: 20px;
+    /* font-size: 14px; */
+}
+
+.icon-down{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+
+
+/* Box 5 */
+
+.nav-first{
+    font-size: 12px;
+}
+
+.nav-second{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* Box 6 */
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 14px;
+    font-weight: 700;
 }
