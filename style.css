@@ -345,8 +345,8 @@
 /* Box 3 */
 
 .box-content3{
-    margin-left: 20px;
-    margin-right: 10px;
+    margin-left: 13px;
+    margin-right: 20px;
 }
 
 .cpu{
@@ -355,10 +355,11 @@
     background-repeat: no-repeat;
     width: 500px;
     height: 320px;
+    margin-top: 10px;
 }
 
 .box-content3 p{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-size: 13px;
     color: #007185;
     /* font-weight: bold; */
