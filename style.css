@@ -340,3 +340,26 @@
     font-size: 13px;
     color: #007185;
 }
+
+
+/* Box 3 */
+
+.box-content3{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.cpu{
+    background-image: url(images/cpu.jpg);
+    background-size: 320px 270px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 320px;
+}
+
+.box-content3 p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #007185;
+    /* font-weight: bold; */
+}
