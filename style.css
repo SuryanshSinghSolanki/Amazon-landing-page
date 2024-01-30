@@ -5,6 +5,10 @@
     border: border-box;
 }
 
+body{
+    /* background-color: #e3e6e6; */
+}
+
 .navbar{
     height: 60px;
     background-color: #0F1111;
@@ -223,24 +227,27 @@
 
 
 
+
 /* Shopping Items */
 
-
-/* box1 */
+/* Row 1 */
 .shop-items{
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(255, 192, 203);
-    background: linear-gradient(to bottom, pink, white);
+    /* background-color: rgb(255, 192, 203); */
+    background: linear-gradient(to bottom, pink, #e3e6e6);
     margin: 0px 10px;
 }
+
+
+/* box1 */
 
 .box{
     /* width: 306px; */
     width: 23%;
     height: 375px;
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom: 10px;
     padding: 20px 0px 15px;
 }
@@ -387,4 +394,68 @@
     font-size: 13px;
     color: #007185;
     /* font-weight: bold; */
+}
+
+
+
+/* Row 1 */
+
+.shop-items2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e3e6e6;
+    /* background: linear-gradient(to bottom, pink, #e3e6e6); */
+    margin: 0px 10px;
+}
+
+
+.box-content2{
+    margin-left: 10px;
+    margin-right: 10px;
+    /* font-size: 15px; */
+}
+
+.box-fashion1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.box-fashion2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.jeans{
+    background-image: url(images/jeans.jpg);
+    background-size: cover;
+    height: 120px;
+    width: 150px;
+}
+
+.tops{
+    background-image: url(images/tops.jpg);
+    height: 120px;
+    width: 150px;
+}
+
+.dress{
+    background-image: url(images/dress.jpg);
+    height: 100px;
+    width: 150px;
+}
+
+.shoes{
+    background-image: url(images/shoes.jpg);
+    height: 100px;
+    width: 150px;
+}
+
+.box-content2 p{
+    margin-top: 20px;
+    font-size: 13px;
+    color: #007185;
 }
