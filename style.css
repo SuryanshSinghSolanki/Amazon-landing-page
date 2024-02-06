@@ -459,3 +459,75 @@ body{
     font-size: 13px;
     color: #007185;
 }
+
+
+/* Box 3 */
+
+.box-lunar3{
+    margin-left: 13px;
+    margin-right: 20px;
+}
+
+.lunar{
+    background-image: url(images/lunar.jpg);
+    background-size: 320px 270px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 320px;
+    margin-top: 10px;
+}
+
+.box-lunar3 p{
+    /* margin-top: 10px; */
+    font-size: 13px;
+    color: #007185;
+    /* font-weight: bold; */
+}
+
+
+/* Box 4 */
+
+.box-supplies4{
+    margin-left: 13px;
+    margin-right: 20px;
+}
+
+.supplies{
+    background-image: url(images/supplies.jpg);
+    background-size: 320px 270px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 320px;
+    margin-top: 10px;
+}
+
+.box-supplies4 p{
+    /* margin-top: 10px; */
+    font-size: 13px;
+    color: #007185;
+    /* font-weight: bold; */
+}
+
+
+/* Box 2 */
+
+.box-deals{
+    margin-left: 13px;
+    margin-right: 20px;
+}
+
+.deal{
+    background-image: url(images/deals.jpg);
+    background-size: 320px 270px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 320px;
+    margin-top: 10px;
+}
+
+.box-deals p{
+    /* margin-top: 10px; */
+    font-size: 13px;
+    color: #007185;
+    /* font-weight: bold; */
+}
